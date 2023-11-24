@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todoList {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+#taskInput {
+  width: 70%;
+  padding: 8px;
+}
+
+#addTaskBtn {
+  padding: 8px;
+}
+
+.taskItem {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskItem button {
+  margin-left: 8px;
+}
