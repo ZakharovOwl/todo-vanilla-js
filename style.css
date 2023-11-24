@@ -1,10 +1,16 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #0d0d526b;
+  background-size: cover;
+  transition: background-image 1s ease-in-out;
 }
 
 #todoList {
+  display: flex;
+  flex-direction: column;
   max-width: 400px;
   margin: 20px auto;
+  background-color: rgba(231, 225, 225, 0.7);
 }
 
 #taskInput {
@@ -24,4 +30,8 @@ body {
 
 .taskItem button {
   margin-left: 8px;
+}
+
+.todoInput {
+  display: flex;
 }
